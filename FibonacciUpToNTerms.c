@@ -6,7 +6,7 @@ void main()
     scanf("%d", &n);
     printf("Fibonacci Series up to n terms is shown below: ");
 
-    for (i = 1; i <= n; ++i) 
+    for (i = 0; i <= n; i++) 
     {
         printf("%d ",a);
         temp = a + b;
