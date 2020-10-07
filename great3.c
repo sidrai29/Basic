@@ -3,7 +3,7 @@
 void main()
 {
     int x,y,z;
-    printf("ENTER THREE NUMBERS");
+    printf("Enter 3 integer number please");
     scanf("%d%d%d",&x,&y,&z);
     if(x>y&&x>z)
     {
