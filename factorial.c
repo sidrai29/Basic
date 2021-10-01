@@ -7,8 +7,8 @@ void main()
  i=1;
  while(i<=n)
  {    
-    fact=fact*i;
-    i=i+1;
+    fact*=i;
+    i++;
   
  }    
   printf("The factorial of number %d is = %d",n,fact);    
