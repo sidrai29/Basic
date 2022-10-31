@@ -3,7 +3,7 @@
 void main()
 {
     int x,y,z,answer;
-    printf("ENTER THREE NUMBERS Please");
+    printf("Enter any 3 numbers");
     scanf("%d%d%d",&x,&y,&z);
     if(x>y&&x>z)
     {
@@ -17,5 +17,5 @@ void main()
     {
         answer=z;
     }
-    printf("%d is the greatest number",answer);
+    printf("greatest number is %d",answer);
 }
